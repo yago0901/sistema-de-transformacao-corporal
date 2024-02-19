@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+meustc.com	TRUE	/	FALSE	1999999999	pbid	b83aedb86b4b917f077743c2bdfbd70d04236c4b136e595d3ed4a66f05e1ad10
+
