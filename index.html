@@ -17,6 +17,17 @@
 			'transaction_id': ''
 		});
 	</script>
+	<script>const { SpeedInsights } = require('@vercel/speed-insights');
+
+		const speedInsights = new SpeedInsights({
+			apiKey: 'll2wgNP01uro6TszxOEtPX4O'
+		});
+
+		speedInsights.start('https://sistema-de-transformacao-corporal.vercel.app/').then(data => {
+			console.log(data);
+		}).catch(error => {
+			console.error(error);
+		});</script>
 	<link rel='stylesheet' id='blocksy-dynamic-global-css'
 		href='meustc.com/wp-content/uploads/blocksy/css/globale437.css?ver=64363' media='all' />
 	<link rel='stylesheet' id='activecampaign-form-block-css'
